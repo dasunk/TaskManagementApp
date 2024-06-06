@@ -5,12 +5,14 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { TaskFormComponent } from './components/task-form/task-form.component';
 import {FormsModule} from "@angular/forms";
+import { TaskListComponent } from './components/task-list/task-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    TaskFormComponent
+    TaskFormComponent,
+    TaskListComponent
   ],
   imports: [
     BrowserModule,
