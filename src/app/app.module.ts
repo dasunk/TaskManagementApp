@@ -6,13 +6,15 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { TaskFormComponent } from './components/task-form/task-form.component';
 import {FormsModule} from "@angular/forms";
 import { TaskListComponent } from './components/task-list/task-list.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     TaskFormComponent,
-    TaskListComponent
+    TaskListComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
